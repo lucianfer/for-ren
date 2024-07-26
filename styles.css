@@ -13,7 +13,7 @@ body, html {
 
 .container {
     text-align: center;
-    background: rgba(255, 255, 255, 0); /* Transparent background */
+    background: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
     padding: 20px;
     border-radius: 10px;
     max-width: 90%;
@@ -31,9 +31,11 @@ body, html {
 .text-content {
     font-size: 1em; /* Smaller font size */
     line-height: 1.4; /* Adjusted line height */
-    color: rgba(0, 0, 0, 0.7);
-    height: 300px; /* Fixed height for scrollable area */
-    overflow-y: scroll; /* Enable vertical scrolling */
+    color: rgba(0, 0, 0, 0.9); /* Text color */
+    max-height: 300px; /* Fixed height for scrollable area */
+    overflow-y: auto; /* Enable vertical scrolling */
     padding: 10px;
     background: rgba(255, 255, 255, 0.5); /* Semi-transparent background for text */
+    margin: 0 auto; /* Centering the text content */
+    width: 80%; /* Adjust the width to fit within the container */
 }
