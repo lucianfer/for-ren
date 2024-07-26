@@ -1,0 +1,33 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://i.pinimg.com/564x/4d/55/37/4d5537b75055e09592d16513d771fbfd.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 90%;
+    margin: 20px;
+}
+
+.image-before-text, .image-after-text {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.text-content {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: rgba(0, 0, 0, 0.7);
+}w
