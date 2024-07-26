@@ -8,26 +8,31 @@ body, html {
     align-items: center;
     background: url('https://i.pinimg.com/564x/4d/55/37/4d5537b75055e09592d16513d771fbfd.jpg') no-repeat center center fixed;
     background-size: cover;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
     text-align: center;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.5); /* Adjusted transparency */
     padding: 20px;
     border-radius: 10px;
     max-width: 90%;
     margin: 20px;
+    overflow: hidden; /* To ensure the container does not expand */
 }
 
 .image-before-text, .image-after-text {
-    width: 100%;
+    width: 80%; /* Adjusted size */
     height: auto;
-    margin: 20px 0;
+    margin: 10px auto; /* Centered images */
+    display: block; /* Ensures block-level for centering */
 }
 
 .text-content {
-    font-size: 1.2em;
-    line-height: 1.6;
+    font-size: 1em; /* Smaller font size */
+    line-height: 1.4; /* Adjusted line height */
     color: rgba(0, 0, 0, 0.7);
-}w
+    height: 300px; /* Fixed height for scrollable area */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    padding: 10px;
+}
