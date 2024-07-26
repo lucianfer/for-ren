@@ -13,12 +13,12 @@ body, html {
 
 .container {
     text-align: center;
-    background: rgba(255, 255, 255, 0.5); /* Adjusted transparency */
+    background: rgba(255, 255, 255, 0); /* Transparent background */
     padding: 20px;
     border-radius: 10px;
     max-width: 90%;
     margin: 20px;
-    overflow: hidden; /* To ensure the container does not expand */
+    overflow: hidden;
 }
 
 .image-before-text, .image-after-text {
@@ -35,4 +35,5 @@ body, html {
     height: 300px; /* Fixed height for scrollable area */
     overflow-y: scroll; /* Enable vertical scrolling */
     padding: 10px;
+    background: rgba(255, 255, 255, 0.5); /* Semi-transparent background for text */
 }
